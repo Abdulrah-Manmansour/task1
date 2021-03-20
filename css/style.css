@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/*=======start task number 1=========*/
+.client .heading{
+    text-align: center;
+    padding-top: 50px;
+}
+.client .heading h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.client .heading p{
+    color: #6a6b7c;
+    font-size: 19px;
+}
+.client .container{
+    margin-top: 70px;
+}
+.client .content{
+    overflow: hidden;
+}
+.client .item{
+width: 20%;
+float: left;
+height: 400px;
+position: relative;
+overflow: hidden;
+}
+.client .icons{
+  position: absolute;
+  top: -50%;
+  left: 20%;
+  background-image: linear-gradient(        120deg        ,#ee8425 0%,#f9488b 100%),linear-gradient(        120deg        ,#ee8425 0%,#f9488b 100%);
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border-radius:0 0 6px 6px ;
+  -webkit-border-radius:0 0 6px 6px ;
+  -moz-border-radius:0 0 6px 6px ;
+  -ms-border-radius:0 0 6px 6px ;
+  -o-border-radius:0 0 6px 6px ;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  -ms-transition: .3s all;
+  -o-transition: .3s all;
+}
+.client .icons a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.client .icons a i {
+    font-size: 20px;
+}
+.client .item img{
+    width: 100%;
+    height: 400px;
+}
+.client .item:hover .icons{
+top: 0;
+}
+.client .item .text{
+    background-color: #fff;
+    padding: 10px 14px 20px 14px ;
+    position: absolute;
+    bottom: 20px;
+    left: -500px;
+    width: 150px;
+    transition:.3s all ;
+    -webkit-transition:.3s all ;
+    -moz-transition:.3s all ;
+    -ms-transition:.3s all ;
+    -o-transition:.3s all ;
+}
+.client .item:hover .text{
+left: 20px;
+}
+.client .item .text p{
+    margin-top: 10px;
+    color: #f44949;
+}
+
+/*=====end task number 1===============*/
